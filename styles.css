@@ -1,0 +1,71 @@
+/*Sidebar picture */
+#bhavinimg {
+  max-width: 70%;
+  max-height: 40%;
+  border-radius: 50%;
+  margin-right: 40px;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: -0px;
+  border: 5px solid #555;
+}
+
+.linksborder{
+  margin-left: 43px;
+}
+
+/*Img size and position for Skills, Qualifications, Experiences */
+.imgsizeandpositionskills {
+  width: 250px;
+  height: 250px;
+}
+
+.imgsizeandpositionQualifications {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.imgsizeandpositionExperiences {
+  width: 250px;
+  height: 250px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%;
+  width: 140px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Stay in place*/
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay on top */
+  left: 0;
+  background-color: #bd5d38;
+  padding: 350px 20px 6px 26px;
+}
+
+/* Links color size and spacing */
+.sidebar a {
+  padding: 10px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: sans-serif;
+  margin-left: -44px;
+}
+
+/* When you hover over the text it changes the color*/
+.sidenav a:hover {
+  color: #fff;
+}
+
+/* Main content */
+.main {
+  margin-left: 182px;
+}
